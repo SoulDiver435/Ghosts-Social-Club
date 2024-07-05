@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./estilos.css" />
+    <title>Ghosts Social Club</title>
+  </head>
+  <body>
+    <h1 class="tituloPrincipal">Ghosts Social Club</h1>
+    <br /><br />
+
+    <div class="preguntaEstilo">Datos generales de la Interacción:</div>
+    <br />
+
+    <label class="preguntaEstilo" for="respuesta1">Fecha y Hora:</label><br />
+    <input class="inputInfo"  type="text" /> <br />
+
+    <label class="preguntaEstilo" for="respuesta1">Contexto:</label>
+    <br /><input class="inputInfo" type="text" /><br />
+    
+    <label class="preguntaEstilo" for="respuesta1">Personas involucradas:</label>
+    <br /><input class="inputInfo" type="text" /><br />
+    <br />
+
+    <label class="preguntaEstilo" for="respuesta1"
+      >1 - ¿Cómo iniciaste la conversación? ¿Hubo algún saludo o apertura
+      específica?:</label
+    ><br />
+    <textarea class="inputRespuestas" id="respuesta1" type="text"></textarea
+    ><br /><br />
+
+    <label class="preguntaEstilo" for="respuesta2"
+      >2 - ¿Cuáles fueron los temas principales que se discutieron durante la
+      interacción?:</label
+    ><br />
+    <textarea class="inputRespuestas" id="respuesta2" type="text"></textarea
+    ><br /><br />
+
+    <label class="preguntaEstilo" for="respuesta3"
+      >3 - ¿Hubo contacto físico durante la interacción? En caso afirmativo,
+      ¿qué tipo de contacto fue?:</label
+    ><br />
+    <textarea class="inputRespuestas" id="respuesta3" type="text"></textarea
+    ><br /><br />
+
+    <label class="preguntaEstilo" for="respuesta4"
+      >4 - ¿Dónde tuvo lugar la interacción? ¿Fue en un lugar público, privado,
+      específico?:</label
+    ><br />
+    <textarea class="inputRespuestas" id="respuesta4" type="text"></textarea
+    ><br /><br />
+
+    <label class="preguntaEstilo" for="respuesta5"
+      >5 - ¿Cómo describirías la dinámica de la conversación? ¿Fue fluida,
+      tensa, cómoda?:</label
+    ><br />
+    <textarea class="inputRespuestas" id="respuesta5" type="text"></textarea
+    ><br /><br />
+
+    <label class="preguntaEstilo" for="respuesta6"
+      >6 - ¿Qué emociones predominaron durante la interacción? ¿Hubo momentos de
+      alegría, incomodidad, tensión?:</label
+    ><br />
+    <textarea class="inputRespuestas" id="respuesta6" type="text"></textarea
+    ><br /><br />
+
+    <label class="preguntaEstilo" for="respuesta7"
+      >7 - ¿Cómo te despediste al finalizar la interacción? ¿Hubo algún
+      comentario final o deseo expresado?:</label
+    ><br />
+    <textarea class="inputRespuestas" id="respuesta7" type="text"></textarea
+    ><br /><br />
+
+    <button class="btnGhost" onclick="enviar()">Enviar</button>
+    <button class="btnGhost" onclick="resetear()">Resetear</button>
+    <script src="./script.js"></script>
+  </body>
+</html>
